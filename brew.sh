@@ -137,6 +137,9 @@ brew link libxslt --force
 brew install heroku-toolbelt
 heroku update
 
+# Tap caskroom/versions to get sublime-text 3
+brew tap caskroom/versions
+
 # Core casks
 brew cask install --appdir="/Applications" alfred
 brew cask install --appdir="~/Applications" iterm2
