@@ -67,6 +67,7 @@ brew install vim --override-system-vi
 brew install homebrew/dupes/grep
 brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
+brew install reattach-to-user-namespace
 brew install tmux
 brew install homebrew/php/php55 --with-gmp
 
@@ -135,9 +136,6 @@ brew link libxslt --force
 # Install Heroku
 brew install heroku-toolbelt
 heroku update
-
-# Install Cask
-brew install caskroom/cask/brew-cask
 
 # Core casks
 brew cask install --appdir="/Applications" alfred
